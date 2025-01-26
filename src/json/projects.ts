@@ -24,7 +24,7 @@ export const ProjectJSON = [
         "project_type": "Empresarial",
         "client" : "Ana Claudia Zan - Advogada",
         "description": "Portfólio referente aos serviços prestados pela Doutora Ana Claudia - Advogada de Direitos Autorais.",
-        "link" : "www.anaclaudiazan.com"
+        "link" : "https://www.anaclaudiazan.com.br"
 
     },
     {
@@ -50,7 +50,7 @@ export const ProjectJSON = [
         "project_type": "Pessoal",
         "description": "Meu portfólio foi feito para divulgar meu trabalho e minhas competências, mas também para despertar interesse do público.",
         "github" : "https://github.com/spadaritucks/portifolio-thiago.git",
-        "link" : "www.portifolio-thiago.vercel.app"
+        "link" : "https://thiago-spadari-dev.vercel.app/"
     },
     {
         "id": 8,
@@ -85,7 +85,7 @@ export const ProjectJSON = [
         "project_type": "Empresarial",
         "client" : "TUC CODE - Software House & Development Web",
         "description": "Como fundador da empresa TUC CODE, desenvolvi o site da empresa onde é possivel obter informações e serviços oferecidos pela empresa.",
-        "link" : "www.tuccode.vercel.app"
+        "link" : "https://tuccode.vercel.app/"
 
     },
 
