@@ -52,7 +52,7 @@ export const ProjectJSON = [
     {
         "id": 7,
         "image": "/project-image (9).png",
-        "title": "Portfólio - Thiago Spadari",
+        "title": "Portifólio - Thiago Spadari",
         "project_type": "Pessoal",
         "languagens" : " Typescript - React - Tailwind CSS",
         "description": "Meu portfólio foi feito para divulgar meu trabalho e minhas competências, mas também para despertar interesse do público.",
