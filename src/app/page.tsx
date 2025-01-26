@@ -18,27 +18,23 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
 
+  const projectsOrdened = ProjectJSON.sort((a,b) => {
+    if (a.project_type === 'Empresarial' && b.project_type !== 'Empresarial') return -1; // 'a' vem primeiro
+    if (a.project_type !== 'Empresarial' && b.project_type === 'Empresarial') return 1;  // 'b' vem primeiro
+    return 0; // mantém a ordem original se ambos forem iguais
+  })
+
+  //Paginação dos Projetos
   const itemsPerPage = 6
   const [currentPage, setCurrentPage] = useState(1)
   const indexOfLastProject = currentPage * itemsPerPage;
   const indexOfFirstProject = indexOfLastProject - itemsPerPage;
-  const ProjectsPaginated = ProjectJSON.slice(indexOfFirstProject, indexOfLastProject)
-
-  const [disabledPrevious, setDisabledPrevious] = useState<boolean>(false)
-  const [disabledNext, setDisabledNext] = useState<boolean>(false)
-
-  const DisableButtonPagination = () => {
-    currentPage === 1 ? setDisabledPrevious(true) : setDisabledPrevious(false)
-    currentPage === totalPages ? setDisabledNext(true) : setDisabledNext(false)
-  }
-
-  useEffect(() => {
-    DisableButtonPagination()
-  }, [])
 
 
+  const ProjectsPaginated = projectsOrdened.slice(indexOfFirstProject, indexOfLastProject)
 
 
+  
   const totalPages = Math.ceil(ProjectJSON.length / itemsPerPage);
 
 
@@ -105,6 +101,7 @@ export default function Home() {
             image={project.image}
             title={project.title}
             project_type={project.project_type}
+            languagens={project.languagens}
             client={project.client}
             description={project.description}
             github={project.github}
