@@ -7,7 +7,7 @@ export const ProjectJSON = [
         "languagens" : " Typescript - NextJS - PHP - Laravel",
         "client" : "ACADEMIAS IMOOGI",
         "description": "O projeto tinha o objetivo de criar e realizar a manutenção do site/sistema de administração da empresa em ambas as vertentes, front-end e back-end utilizando ferramentas como NextJS/TypeScript e PHP/Laravel. Com esse projeto, foi possível realizar gerenciamento envolvendo planos, usuários, modalidades e unidades da empresa cercado por um sistema de autenticação. No lado não-autenticado, está um site institucional voltado para divulgação da empresa.",
-        "link" : "https://www.academiasimoogi.com"
+        "link" : "https://www.academiasimoogi.com.br"
 
     },
     {
