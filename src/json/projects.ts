@@ -46,7 +46,8 @@ export const ProjectJSON = [
         "title": "Landing Page - Angular",
         "languagens" : " Typescript - Angular - SASS",
         "project_type": "Pessoal",
-        "description": "Esta landing page foi meu primeiro projeto com Angular, no qual dei os primeiros passos para conhecer sua estrutura de componentes, validação de formulários e comandos de geração de componentes e serviços."
+        "description": "Esta landing page foi meu primeiro projeto com Angular, no qual dei os primeiros passos para conhecer sua estrutura de componentes, validação de formulários e comandos de geração de componentes e serviços.",
+        "github" : "https://github.com/spadaritucks/Landing-Page-em-Angular",
     },
     {
         "id": 7,

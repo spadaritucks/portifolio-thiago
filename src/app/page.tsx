@@ -93,8 +93,10 @@ export default function Home() {
 
       <section id="projetos" className="w-full  max-h-[600vh] md:max-h-[300vh] lg:max-h-[250vh] flex flex-col justify-start items-center lg:items-start text-center py-5 gap-10 px-5 lg:px-36">
         <h1 className="text-5xl font-bold ">Projetos e Trabalhos</h1>
-        <h3 className="text-xl"><span className="font-bold">Observação: </span>Os projetos empresariais não possuem o
-          link do github por questão de confidencialidade das empresas envolvidas</h3>
+        <ul className="text-left">
+          <li><span className="font-bold">Projetos Empresariais :</span> Projetos destinados a empresas e clientes (Repositorio do GITHUB não disponivel por questão confidencialidade)</li>
+          <li><span className="font-bold">Projetos Pessoais: </span>Projetos realizados com o foco no aperfeiçoamento tecnico e aprendizado com novas ferramentas</li>
+        </ul>
         <div className=" flex flex-col items-center justify-start gap-5 w-full md:grid md:grid-cols-2 xl:grid 2xl:grid-cols-3 ">
           {ProjectsPaginated.map((project) => <CardComponent
             key={project.id}
