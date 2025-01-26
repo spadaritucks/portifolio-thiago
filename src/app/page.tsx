@@ -50,7 +50,7 @@ export default function Home() {
           e personalizadas. Especializado em tecnologias como React, Next.js, Laravel e API REST, ajudo empresas e empreendedores a transformar suas
           ideias em aplicações web e mobile robustas e escaláveis.</p>
         <div className="flex justify-center items-center gap-2">
-          <a href="https://www.linkedin.com/in/thiago-spadari"><Image src="/linkedin.png" width={60} height={60} alt="LinkedIn" className="rounded-2xl hover:scale-110 transition-all cursor-pointer" /></a>
+          <a href="https://www.linkedin.com/in/thiago-spadari-41b95120b"><Image src="/linkedin.png" width={60} height={60} alt="LinkedIn" className="rounded-2xl hover:scale-110 transition-all cursor-pointer" /></a>
           <a href="https://wa.me/5511960599793"><Image src="/whatsaap.png" width={60} height={60} alt="LinkedIn" className="rounded-2xl hover:scale-110 transition-all cursor-pointer" /></a>
           <a href="https://github.com/spadaritucks"><Image src="/github.png" width={60} height={60} alt="LinkedIn" className="rounded-2xl hover:scale-110 transition-all cursor-pointer" /></a>
         </div>
