@@ -108,6 +108,26 @@ export const ProjectJSON = [
         "github" : "https://github.com/spadaritucks/LAYOUT-DELIVERY---REACT-NATIVE",
 
     },
+    {
+        "id": 13,
+        "image": "/project-image (11).png",
+        "title": "API MVC NodeJS Nativo",
+        "project_type": "Pessoal",
+        "languagens" : "NodeJS",
+        "description": "API em NodeJS com estrutura MVC e sistema de roteamento sem uso de flameworks e bibliotecas.",
+        "github" : "https://github.com/spadaritucks/API-NODE-JS-No-Flamework-",
+
+    },
+    {
+        "id": 14,
+        "image": "/project-image (13).png",
+        "title": "Catalogo - Franquia Star Wars",
+        "project_type": "Pessoal",
+        "languagens" : "HTML, CSS, Javascript, PHP",
+        "description": "Catalogo de filmes da franquia star-wars que contem informações dos filmes, personagens, planetas nativos de uma forma de detalhada.",
+        "github" : "https://github.com/spadaritucks/Star-Wars---Catalog",
+
+    },
 
 
 ];
