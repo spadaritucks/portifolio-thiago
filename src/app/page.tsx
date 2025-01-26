@@ -60,7 +60,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="sobre-mim" className="w-full h-[200vh] lg:h-screen flex flex-col justify-start items-center lg:items-start text-center px-20 lg:px-36 gap-5 ">
+      <section id="sobre-mim" className="w-full h-[170vh] lg:h-screen flex flex-col justify-start items-center lg:items-start text-center px-20 lg:px-36 gap-5 ">
         <h1 className=" text-3xl lg:text-5xl font-bold ">Serviços e Competencias</h1>
         <div className="flex flex-col max-h-screen w-full lg:flex-row lg:items-center lg:justify-center gap-10">
 
@@ -95,7 +95,7 @@ export default function Home() {
 
       </section>
 
-      <section id="projetos" className="w-full  h-[600vh] md:h-[300vh] lg:h-[250vh] flex flex-col justify-start items-center lg:items-start text-center py-5 gap-10 px-5 lg:px-36">
+      <section id="projetos" className="w-full  max-h-[600vh] md:max-h-[300vh] lg:max-h-[250vh] flex flex-col justify-start items-center lg:items-start text-center py-5 gap-10 px-5 lg:px-36">
         <h1 className="text-5xl font-bold ">Projetos e Trabalhos</h1>
         <h3 className="text-xl"><span className="font-bold">Observação: </span>Os projetos empresariais não possuem o
           link do github por questão de confidencialidade das empresas envolvidas</h3>
