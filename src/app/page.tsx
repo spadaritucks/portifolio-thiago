@@ -49,8 +49,8 @@ export default function Home() {
 
 
       <section id="menu" className="w-full h-[120vh] lg:h-screen flex flex-col justify-center items-center text-center gap-5 ">
-        <h1 className="text-7xl font-bold">Full Stack Developer/Mobile</h1>
-        <p className=" w-3/4 lg:w-2/4">Sou o Thiago Spadari, um desenvolvedor de software autônomo com mais de 2 anos de experiência em criar soluções digitais eficientes
+        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold ">Full Stack Developer/Mobile</h1>
+        <p className=" text-sm md:text-xl w-3/4 lg:w-2/4">Sou o Thiago Spadari, um desenvolvedor de software autônomo com mais de 2 anos de experiência em criar soluções digitais eficientes
           e personalizadas. Especializado em tecnologias como React, Next.js, Laravel e API REST, ajudo empresas e empreendedores a transformar suas
           ideias em aplicações web e mobile robustas e escaláveis.</p>
         <div className="flex justify-center items-center gap-2">
