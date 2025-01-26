@@ -66,7 +66,7 @@ export default function Home() {
               <li className="mb-2 list-disc"><span className="font-bold ">Desenvolvimento Web: </span> Criação de sites institucionais, portfólios e plataformas e-commerce utilizando as mais recentes tecnologias.</li>
               <li className="mb-2 list-disc"><span className="font-bold">Aplicações Personalizadas: </span> Desenvolvimento de aplicações web e mobile sob medida para atender às necessidades específicas dos clientes.</li>
               <li className="mb-2 list-disc"><span className="font-bold">Integração de APIs: </span>Conexão de sistemas e serviços para otimizar fluxos de trabalho e melhorar a funcionalidade das aplicações.</li>
-              <li className="mb-2 list-disc"><span className="font-bold">Integração de APIs: </span> Melhoria da velocidade e eficiência das aplicações para garantir uma experiência de usuário fluida.</li>
+              <li className="mb-2 list-disc"><span className="font-bold">Otimização de Performance: </span> Melhoria da velocidade e eficiência das aplicações para garantir uma experiência de usuário fluida.</li>
               <li className="mb-2 list-disc"><span className="font-bold">Manutenção e Suporte: </span>Suporte contínuo e atualizações para garantir que suas soluções digitais permaneçam atualizadas e funcionais.</li>
             </ul>
 
