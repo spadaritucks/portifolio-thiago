@@ -66,8 +66,8 @@ export const ProjectJSON = [
         "title": "Página de Vendas",
         "project_type": "Pessoal",
         "description": "Projeto que consiste em uma página de vendas autenticada com o login do usuário (vendedor), onde é possível realizar vendas vinculadas ao vendedor logado e ao cliente de forma opcional. O maior desafio deste projeto foi a geração de parcelas automáticas com sua respectiva data de vencimento e cálculo do valor unitário de forma automática.",
-        "github" : "https://github.com/spadaritucks/FITCLUB---ANGULAR",
-        "github2" : "https://github.com/spadaritucks/FITCLUB---ANGULAR",
+        "github" : "https://github.com/spadaritucks/PAINEL-DE-VENDAS-FRONT-END",
+        "github2" : "https://github.com/spadaritucks/PAGINA-DE-VENDAS-BACK-END",
     },
     {
         "id": 10,
@@ -75,8 +75,8 @@ export const ProjectJSON = [
         "title": "Sistema de Login JWT Angular + Java + Spring Boot",
         "project_type": "Pessoal",
         "description": "Pequeno sistema de autenticação JWT feito em Angular com uma API Java + Spring Boot.",
-        "github" : "https://github.com/spadaritucks/FITCLUB---ANGULAR",
-        "github2" : "https://github.com/spadaritucks/FITCLUB---ANGULAR",
+        "github" : "https://github.com/spadaritucks/-FRONT-END-LOGIN---ANGULAR-JAVA",
+        "github2" : "https://github.com/spadaritucks/LOGIN-JWT-SECURITY-JAVA-SPRING",
     },
     {
         "id": 11,
