@@ -13,12 +13,12 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination"
 import { useEffect, useState } from "react";
-
+import { motion } from "motion/react"
 
 
 export default function Home() {
 
-  const projectsOrdened = ProjectJSON.sort((a,b) => {
+  const projectsOrdened = ProjectJSON.sort((a, b) => {
     if (a.project_type === 'Empresarial' && b.project_type !== 'Empresarial') return -1; // 'a' vem primeiro
     if (a.project_type !== 'Empresarial' && b.project_type === 'Empresarial') return 1;  // 'b' vem primeiro
     return 0; // mantém a ordem original se ambos forem iguais
@@ -34,7 +34,7 @@ export default function Home() {
   const ProjectsPaginated = projectsOrdened.slice(indexOfFirstProject, indexOfLastProject)
 
 
-  
+
   const totalPages = Math.ceil(ProjectJSON.length / itemsPerPage);
 
 
@@ -44,7 +44,13 @@ export default function Home() {
       <Navbar />
 
 
-      <section id="menu" className="w-full h-[120vh] lg:h-screen flex flex-col justify-center items-center text-center gap-5 ">
+      <motion.section
+        id="menu"
+        className="w-full h-[120vh] lg:h-screen flex flex-col justify-center items-center text-center gap-5 "
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: 'easeInOut' }}
+      >
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold ">Full Stack Developer/Mobile</h1>
         <p className=" text-sm md:text-xl w-3/4 lg:w-2/4">Sou o Thiago Spadari, um desenvolvedor de software autônomo com mais de 2 anos de experiência em criar soluções digitais eficientes
           e personalizadas. Especializado em tecnologias como React, Next.js, Laravel e API REST, ajudo empresas e empreendedores a transformar suas
@@ -54,13 +60,24 @@ export default function Home() {
           <a href="https://wa.me/5511960599793"><Image src="/whatsaap.png" width={60} height={60} alt="LinkedIn" className="rounded-2xl hover:scale-110 transition-all cursor-pointer" /></a>
           <a href="https://github.com/spadaritucks"><Image src="/github.png" width={60} height={60} alt="LinkedIn" className="rounded-2xl hover:scale-110 transition-all cursor-pointer" /></a>
         </div>
-      </section>
+      </motion.section>
 
-      <section id="sobre-mim" className="w-full h-[170vh] lg:h-screen flex flex-col justify-start items-center lg:items-start text-center px-20 lg:px-36 gap-5 ">
+      <motion.section
+        id="sobre-mim"
+        className="w-full h-[170vh] lg:h-screen flex flex-col justify-start items-center lg:items-start text-center px-20 lg:px-36 gap-5 "
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: 'easeInOut' }}
+      >
         <h1 className=" text-3xl lg:text-5xl font-bold ">Serviços e Competencias</h1>
         <div className="flex flex-col max-h-screen w-full lg:flex-row lg:items-center lg:justify-center gap-10">
 
-          <div className="flex flex-col items-center justify-center lg:items-left lg:justify-start w-full lg:w-1/2 gap-4 ">
+          <motion.div
+            className="flex flex-col items-center justify-center lg:items-left lg:justify-start w-full lg:w-1/2 gap-4 "
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, ease: 'easeInOut' }}
+          >
 
             <ul className="text-center lg:text-left">
               <li className="mb-2 list-disc"><span className="font-bold ">Desenvolvimento Web: </span> Criação de sites institucionais, portfólios e plataformas e-commerce utilizando as mais recentes tecnologias.</li>
@@ -83,15 +100,28 @@ export default function Home() {
               <img className="w-12 rounded-xl" src="/NODEJS.jpg" alt="" />
               <img className="w-12 rounded-xl" src="/JavaIcon.png" alt="" />
             </div>
-          </div>
+          </motion.div>
 
-          <img src="/section-image.png" className="w-full lg:w-1/2" alt="" />
+          <motion.div
+            className="w-full lg:w-1/2"
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, ease: 'easeInOut' }}
+          >
+            <img src="/section-image.png" className="w-full" alt="" />
+          </motion.div>
 
         </div>
 
-      </section>
+      </motion.section>
 
-      <section id="projetos" className="w-full  max-h-[600vh] md:max-h-[300vh] lg:max-h-[250vh] flex flex-col justify-start items-center lg:items-start text-center py-5 gap-10 px-5 lg:px-36">
+      <motion.section
+        id="projetos"
+        className="w-full  max-h-[600vh] md:max-h-[300vh] lg:max-h-[250vh] flex flex-col justify-start items-center lg:items-start text-center py-5 gap-10 px-5 lg:px-36"
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: 'easeInOut' }}
+      >
         <h1 className="text-5xl font-bold ">Projetos e Trabalhos</h1>
         <ul className="text-left">
           <li><span className="font-bold">Projetos Empresariais :</span> Projetos destinados a empresas e clientes (Repositorio do GITHUB não disponivel por questão confidencialidade)</li>
@@ -140,7 +170,7 @@ export default function Home() {
         </Pagination>
 
 
-      </section>
+      </motion.section>
 
 
 
