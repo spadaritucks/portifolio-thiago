@@ -129,6 +129,16 @@ export const ProjectJSON = [
         "github" : "https://github.com/spadaritucks/Star-Wars---Catalog",
 
     },
+    {
+        "id": 15,
+        "image": "/project-image (14).png",
+        "title": "Sistema de Reserva de Shows",
+        "project_type": "Pessoal",
+        "languagens" : "NextJS, NodeJS",
+        "description": "Usando o Server-Side-Rendering em 100% da aplicação sob o consumo da API em NodeJS, foi possivel criar um sistema de reserva de lugares em shows.",
+        "github" : "https://github.com/spadaritucks/Next-JS---SRR---Reserva-para-Shows",
+
+    }
 
 
 ];
