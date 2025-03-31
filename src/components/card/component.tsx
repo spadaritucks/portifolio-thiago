@@ -18,12 +18,12 @@ export default function CardComponent({ image, title, project_type, languagens, 
 
     return (
         <motion.div
-            className="w-[304px] h-[700px] rounded-2xl flex flex-col items-start justify-start shadow-2xl shadow-black"
+            className="max-w-[390px] h-[700px] rounded-2xl flex flex-col items-start justify-start shadow-2xl shadow-black"
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: 'easeInOut' }}
         >
-            <img className="w-[304px] h-[134px]  rounded-t-2xl" src={image} alt="" />
+            <img className="w-full max-h-52 rounded-t-2xl" src={image} alt="" />
             <div className="flex flex-col items-start justify-start text-left px-4 py-8 gap-2">
                 <h3 className=" text-2xl font-bold">{title}</h3>
                 <p className="text-sm"><span className="font-bold">Tipo do Projeto:</span> {project_type}</p>
