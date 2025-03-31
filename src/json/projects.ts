@@ -146,7 +146,7 @@ export const ProjectJSON = [
         "project_type": "Pessoal",
         "languagens" : "Java, Springboot, PostgresSQL, AWS EC2, AWS S3",
         "description": "API com funcionalidades de cadastro de eventos, cupons e buscas filtradas de acordo com a vontade do usuario.",
-        "github" : "https://github.com/spadaritucks/Next-JS---SRR---Reserva-para-Shows",
+        "github" : "https://github.com/spadaritucks/API-de-Eventos---Java-21-Springboot-PostgresSQL-AWS",
 
     }
 
