@@ -138,6 +138,16 @@ export const ProjectJSON = [
         "description": "Usando o Server-Side-Rendering em 100% da aplicação sob o consumo da API em NodeJS, foi possivel criar um sistema de reserva de lugares em shows.",
         "github" : "https://github.com/spadaritucks/Next-JS---SRR---Reserva-para-Shows",
 
+    },
+    {
+        "id": 16,
+        "image": "/project-image (11).png",
+        "title": "API de Eventos",
+        "project_type": "Pessoal",
+        "languagens" : "Java, Springboot, PostgresSQL, AWS EC2, AWS S3",
+        "description": "API com funcionalidades de cadastro de eventos, cupons e buscas filtradas de acordo com a vontade do usuario.",
+        "github" : "https://github.com/spadaritucks/Next-JS---SRR---Reserva-para-Shows",
+
     }
 
 
