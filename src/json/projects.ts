@@ -11,15 +11,6 @@ export const ProjectJSON = [
 
     },
     {
-        "id": 2,
-        "image": "/project-image (10).png",
-        "title": "Sistema de Recrutamento - Talents RH - (Em Desenvolvimento)",
-        "project_type": "Empresarial",
-        "languagens" : "Typescript - NextJS - SAAS - PHP - LARAVEL",
-        "client" : "TALENTS RH",
-        "description": "Sistema que consiste em serviços para empresas que necessitam de novos profissionais, onde recrutadores (headhunters) filiados ao sistema realizam processos seletivos com os candidatos respectivos à vaga. Projeto está sendo desenvolvido com o NextJS 15 no front-end web e React Native na versão mobile, ambos consumindo API feita em Laravel/PHP.",
-    },
-    {
         "id": 4,
         "image": "/project-image (5).png",
         "title": "Portfólio - Ana Claudia Zan",
